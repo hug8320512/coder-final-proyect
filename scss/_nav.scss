@@ -90,6 +90,8 @@ $space-parrafo:30px;
     background-image:url('../img/bg-2.jpg');
     min-height: 800px;
     background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
     .banner__sociales{
         .banner__sociales__iconos{
             .banner__sociales__iconos--images img{
