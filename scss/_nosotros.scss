@@ -1,0 +1,239 @@
+//VARIABLES 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;   
+    font-family: 'Roboto', sans-serif; 
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 62.5%;
+    max-width: 100%;}
+
+$just-white: #fff;
+$just-blue: #002858;
+$just-orange:#d17502;
+$off-orange: #db9600;
+$off-background: #01010f;
+$tipografia-principal: 'Montserrat', sans-serif; 
+$tipografia-secundario:'Roboto', sans-serif; 
+$fuente-titulo:4rem;
+$fuente-parrafo:2rem;
+$space-section:70px;
+$space-parrafo:30px;
+
+%btn{
+    display: block;
+    text-decoration: none;
+    background:#002858;
+    top: 10px;
+    padding: 15px 15px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: all 300ms;
+    border: none;
+    width: 250px;
+  }
+
+%btn-hover{
+    color: #ffffff;
+    transform: translateY(10px);
+    background-color: #d17502;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+// TITULO NOSOTROS
+.nosotros__general{
+    background-color:$off-background;
+    min-height: 400px;
+    .nosotros__principal{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+
+        .nosotros__secundario{
+            width: 60%;
+            margin-top: 200px;
+            .figure{
+                max-width: 100%;
+                width: 1000px;}
+        }
+
+            .nosotros__secundario_titulo{
+            width: 50%;
+            padding: 0 80px;
+
+            .nosotros__secundario--h1{
+                color: white;
+                font-weight: 600;
+                font-family:$tipografia-secundario;
+                font-style: italic;
+                text-align: left;
+                margin-top: 150px;
+                font-size:4rem;}
+            
+            .nosotros__secundario--h1 span{
+                color: $just-orange;
+            }
+                            
+            .nosotros__secundario--p{
+                color: white;
+                font-weight: 300;
+                text-align: justify;
+                margin-top: 10px;
+                font-family:$tipografia-secundario;
+                font-size:2rem;}
+            
+            .nosotros__secundario--btn{
+               @extend %btn;
+            &:hover{
+               @extend %btn-hover;
+                }
+            }
+                
+        }
+    }
+}
+
+// CARDS TEAM
+.cards_principal_container{
+   background-color:$off-background;
+    min-height: 900px;
+.cards__team{ 
+    .team__title{
+        .team--h1{
+            color: white;
+            font-weight: 600;
+            font-family:$tipografia-secundario;
+            font-style: italic;
+            text-align: left;
+            margin-top: 100px;
+            font-size:4rem;
+
+            span{
+                    color: $just-orange;}
+            }
+        .team--p{
+            color: white;
+            font-weight: 300;
+            text-align: left;
+            margin-top: 30px;
+            font-family:$tipografia-secundario;
+            font-size:2rem;}
+    }
+}
+
+.team{
+    .team__principal{
+        text-align: center;
+        .team__secundario{
+          
+            .team__secundario--img{
+                width: 300px;
+                margin-top: 40px;
+               
+            }
+
+            .team__secundario--h3{
+                color: white;
+                font-weight: 600;
+                font-family:$tipografia-secundario;
+                font-style: italic;
+                text-align: center;
+                font-size:3rem;
+                margin-top: 30px;
+            }
+
+            .team__secundario--h4{
+                color: white;
+                font-weight: 400;
+                font-family:$tipografia-secundario;
+                margin-top: 15px;
+                font-style: italic;
+                text-align: center;
+                font-size:2rem;
+            }
+
+            .team__secundario--p{
+                color: white;
+                font-weight: 300;
+                font-family:$tipografia-secundario;
+                font-style: italic;
+                text-align: center;
+                font-size:1.5rem;
+            }
+        }
+    }
+}
+}
+
+//TESTIMONIOS
+
+.testimonios{
+    background-color:$off-background;
+    min-height: 400px;
+    .comentarios__titulo{
+        h2{
+            font-weight: 700;
+            font-size: $fuente-titulo;
+            margin-top: $space-section;
+            text-align: center;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            
+            span{
+                color: $just-orange;
+                font-size: 4rem;
+                font-family:$tipografia-secundario;
+                font-weight: 500;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .content--slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+            img{
+            width: 200px;
+        }
+
+        .content--slides{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+
+            h3{
+                font-weight: 400;
+                font-size: 2rem;
+                color: white;
+                margin-top: 15px;
+                font-family:$tipografia-secundario;
+            }
+
+            p{
+                font-weight: 300;
+                font-size: 1.5rem;
+                color: $just-white;
+                margin-top: 10px;
+                font-family:$tipografia-secundario;
+                text-align: center;
+            }
+        }
+    }
+    
+}
