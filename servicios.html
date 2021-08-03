@@ -4,7 +4,7 @@
     <!-- SEO -->
     <!-- KEYWORDS -->
     <meta name="keywords" content="desarrollo web, seo, agencia web, frontend, fullstack, aplicaciones, e-commerce, tienda online, html, css, javascript, diseño responsivo, diseño web, branding, marca, freelance, desarrollo web profesional, marketing, maquetación web">
-    <title>Nosotros | Code Web Studio</title>
+    <title>Servicios | Code Web Studio</title>
     <meta name="description" content="Somos agencia web moderna con un enfoque centrado en las personas. Creamos sitios web de alto rendimiento a través de un diseño moderno. Combinamos la tecnología, creatividad y estrategia para crear sitios web profesionales que les permiten a tus clientes acceder a tus servicios  o productos desde cualquier parte del mundo.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <!-- link bt-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link fontawesome-->
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/estilos.css">   
     
 </head>
@@ -49,22 +51,139 @@
 </header>
 
 <section class="servicios"> 
-  <div class="servicios__content">
-    <div class="servicios__box">
-      <div class="servicios__titulo">
-        <h1>servicios</h1>
+  <div class="container servicios__content">
+    <div class="row servicios__box d-flex justify-content-space-around align-items-center">
+      <div class="col-6 servicios__col">
+        <img class="rounded logo-servicios" src="img/logo-blue.png" alt="">
+      </div>  
+    <div class="col-6 servicios__col">
+      <div class="background-content">
+      <h1>NUESTROS SERVICIOS</h1>
+      <img class="servicios--rectangulo" src="img/rectangulo-card.png" alt="">
+      <p>Somos una empresa digital de servicios de desarrollo web, ofrecemos una amplia gama de soluciones personalizadas para empresas de diferentes industrias, tanto pequeñas como grandes, utilizamos la tecnología, creatividad y estrategia para generar contenido digital que posicionara su empresa sobre la competencia apagando la sed de sus clientes por sus productos.</p>   
+      <p>Nos encargaremos de todo el proceso de desarrollo web para su negocio desde el prototipo de diseño hasta el lanzamiento del sitio.</p>
+    </div>
+    <div class="servicios__sociales">
+      <div class="servicios__icons">
+      <img class="social-icon" src="img/sms-facebook.png" alt="">
+      <img class="social-icon" src="img/sms-whatsaap.png" alt="">
+      <img class="social-icon" src="img/sms-whatsaap.png" alt="">
+      <a class="btn btn-secondary servicios__boton--primary" href="#">SOLICITAR COTIZACION</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>  
+
+<!-- ITEMS SERVICIOS -->
+<section class="items-servicios">
+  <div class="container-fluid items__content">
+    <div class="row d-flex justify-content-center align-items-center items__box">
+      <div class="col-6 items__col">
+        <div class="titulo--icon">
+          <i class="fas fa-laptop-code"></i>
+          <h2>DESARROLLO WEB</h2>
+        </div>
+        <div class="titulo--parrafo">
+          <p>Si su empresa o negocio está fomentando la idea de un negocio en línea nosotros podemos hacer que eso suceda, desarrollamos sitios web a la medida utilizando altos estándares en programación como html, css, javascript cada proyecto web que realizamos está apegado a las buenas practicas, accesibilidad y rendimiento con la finalidad de optimizar los tiempos de carga del sitio para que sus clientes cuenten con excelente experiencia de usuario.</p>
+        </div>
+      </div>
+
+      <div class="col-6 items__col">
+        <img src="img/web-developer.jpg" class="img--developer" alt="...">
       </div>
     </div>
   </div>
 
-</section>  
+<!-- RESPONSIVE DESIGN -->
+  <div class="container-fluid responsive__content">
+    <div class="row d-flex justify-content-center align-items-center responsive__box">
+      <div class="col-6 responsive__col">
+        <img src="img/responsive-design.jpg" class="img--responsive" alt="...">
+      </div>
+      <div class="col-6 responsive__col">
+        <div class="titulo__icon--responsive">
+          <i class="fas fa-mobile-alt"></i>
+          <h2>RESPONSIVE DESIGN</h2>       
+        </div>
+        <div class="titulo__parrafo--responsive">
+          <p>El 63% de todo el tráfico web de méxico y el mundo proviene de dispositivos móviles. Cada proyecto de diseño y desarrollo de sitios web de code web studio viene con un plan de respuesta móvil, por lo que su sitio reacciona rápida y poderosamente a cualquier tipo de dispositivo ya sea iPhones, iPads, estaciones de trabajo y todo lo demás. Este plan nos permite ahorrar tiempo en desarrollo y reducir los costos de mantenimiento continuo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- E-COMMERCE -->
 
+  <div class="container-fluid items__content">
+    <div class="row d-flex justify-content-center align-items-center items__box">
+      <div class="col-6 items__col">
+        <div class="titulo--icon">
+          <i class="fab fa-cc-visa"></i>
+          <h2>E-COMMERCE</h2>
+        </div>
+        <div class="titulo--parrafo">
+          <p>Como empresa de diseño y desarrollo de sitios web de comercio electrónico y diseño web, comprendemos que un diseño web de comercio electrónico sólido sirve como base para su negocio minorista en línea. 
+          Comprendemos la importancia de utilizar la última tecnología para maximizar las conversiones y las ganancias. En resumen construimos tiendas virtuales de fácil uso, y optimizadas para generar ventas utilizando lo último en tecnología web.</p>
+        </div>
+      </div>
+      <div class="col-6 items__col">
+        <img src="img/e-commerce.jpg" class="img--developer" alt="...">
+      </div>
+    </div>
+  </div>
 
+  <!-- SEO -->
+  <div class="container-fluid responsive__content">
+    <div class="row d-flex justify-content-center align-items-center responsive__box">
+      <div class="col-6 responsive__col">
+        <img src="img/seo.jpg" class="img--responsive" alt="...">
+      </div>
+      <div class="col-6 responsive__col">
+        <div class="titulo__icon--responsive">
+          <i class="fab fa-chrome"></i>
+          <h2>SEO</h2>       
+        </div>
+        <div class="titulo__parrafo--responsive">
+          <p>Como empresa de desarrollo web, incluimos el SEO como parte integral de cada proyecto de diseño web. Nuestras técnicas avanzadas de SEO hacen que su sitio web ascienda en los rankings de búsqueda. 
+            Trabajamos para que su sitio web esté en la parte superior de todos los motores de búsqueda para atraer usuarios que se conviertan en clientes potenciales, ventas e ingresos. Puede medir su progreso utilizando Google Analytics o podemos proporcionarle todos los datos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="container-fluid form-block">
+  <div class="container contacto__form">
+    <div class="row d-flex justify-content-center flex-column contacto__form_pricipal">
+      <div class="container p-5 col-6 contacto__form_principal--titulo">
+        <h2>¿TE GUSTARÍA SABER MÁS DE<span> NUESTROS SERVICIOS?</span></h2> 
+        <h3>ENVÍANOS UN MENSAJE</h3>       
+    </div>
+  </div>
+  </div>
 
-
-
+<div class="formulario">
+  <form action="" class="formulario_contacto" name="formulario_contacto">
+    <div>
+      <div class="input-group">
+        <input class="texto" type="text" id="nombre" name="nombre">
+        <label class="label" for="nombre">Nombre</label>
+      </div>
+      <div class="input-group">
+        <input class="email" type="email" id="email" name="email">
+        <label class="label" for="email">Correo electrónico</label>
+      </div>
+      <div class="input-group">
+        <textarea name="mensaje" id="mensaje"></textarea>
+        <label class="label" for="mensaje">Mensaje</label>
+      </div>
+      <input class="enviar" type="submit" value="Enviar">
+    </div>
+  </form>
+</div>
+</section>
 
 <!-- FOOTER -->
 

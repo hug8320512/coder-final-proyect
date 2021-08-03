@@ -11,7 +11,7 @@ html {
   font-size: 62.5%;
   max-width: 100%; }
 
-.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn, .servicios .servicios__content .services__box .servicios__btn .servicios__btn--boton {
+.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn, .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary {
   display: block;
   text-decoration: none;
   background: #002858;
@@ -27,7 +27,7 @@ html {
   border: none;
   width: 250px; }
 
-.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary:hover, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary:hover, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton:hover, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn:hover, .servicios .servicios__content .services__box .servicios__btn .servicios__btn--boton:hover {
+.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary:hover, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary:hover, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton:hover, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn:hover, .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary:hover {
   color: #ffffff;
   transform: translateY(10px);
   background-color: #d17502;
@@ -67,7 +67,9 @@ html {
   position: relative;
   background-image: url("../img/bg-2.jpg");
   min-height: 800px;
-  background-position: center; }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .banner .banner__sociales .banner__sociales__iconos .banner__sociales__iconos--images img {
     width: 30px;
     padding: 10px 0;
@@ -596,7 +598,7 @@ html {
   font-size: 62.5%;
   max-width: 100%; }
 
-.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn, .servicios .servicios__content .services__box .servicios__btn .servicios__btn--boton {
+.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn, .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary {
   display: block;
   text-decoration: none;
   background: #002858;
@@ -612,7 +614,7 @@ html {
   border: none;
   width: 250px; }
 
-.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary:hover, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary:hover, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton:hover, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn:hover, .servicios .servicios__content .services__box .servicios__btn .servicios__btn--boton:hover {
+.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary:hover, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary:hover, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton:hover, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn:hover, .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary:hover {
   color: #ffffff;
   transform: translateY(10px);
   background-color: #d17502;
@@ -759,7 +761,7 @@ html {
   font-size: 62.5%;
   max-width: 100%; }
 
-.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn, .servicios .servicios__content .services__box .servicios__btn .servicios__btn--boton {
+.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn, .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary {
   display: block;
   text-decoration: none;
   background: #002858;
@@ -775,7 +777,7 @@ html {
   border: none;
   width: 250px; }
 
-.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary:hover, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary:hover, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton:hover, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn:hover, .servicios .servicios__content .services__box .servicios__btn .servicios__btn--boton:hover {
+.banner .banner__principal .banner__principal__titulo .banner__principal__botones .banner__botones_box .banner__principal__botones--primary:hover, .publicidad .publicidad_titulo .publicidad__titulo__pricipal .publicidad__principal__botones .publicidad__principal__botones--primary:hover, .accesibilidad .accesibilidad__content .accesibilidad__content__primary .accesibilidad__content__primary--titulo .accesibilidad__botones_primary--boton:hover, .nosotros__general .nosotros__principal .nosotros__secundario_titulo .nosotros__secundario--btn:hover, .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary:hover {
   color: #ffffff;
   transform: translateY(10px);
   background-color: #d17502;
@@ -784,32 +786,124 @@ html {
   transition: all .3s ease; }
 
 .servicios {
-  background-image: url("http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg");
-  text-align: center;
-  color: #fff;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  .servicios .servicios__content .services__box .servicios__titulo {
-    margin-top: 200px; }
-    .servicios .servicios__content .services__box .servicios__titulo h1 {
-      color: #fff;
-      font-weight: 600;
-      font-family: "Montserrat", sans-serif;
-      text-align: left;
-      font-size: 4rem; }
-    .servicios .servicios__content .services__box .servicios__titulo p {
-      color: #fff;
-      font-weight: 300;
-      font-family: "Roboto", sans-serif;
-      font-style: italic;
-      text-align: left;
-      font-size: 2rem; }
-  .servicios .servicios__content .services__box .servicios__btn {
+  background: url("../img/slide-3.jpg");
+  background-size: cover;
+  min-height: 800px;
+  background-size: 100% 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .servicios .servicios__content .servicios__box .servicios__col {
+    margin-top: 150px; }
+    .servicios .servicios__content .servicios__box .servicios__col .logo-servicios {
+      margin-top: 450px; }
+    .servicios .servicios__content .servicios__box .servicios__col .background-content {
+      background: url("../img/fondo-servicios.png");
+      width: 600px;
+      min-height: 400px;
+      padding: 20px 30px;
+      max-width: 100%; }
+      .servicios .servicios__content .servicios__box .servicios__col .background-content h1 {
+        color: #fff;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        text-align: left;
+        font-size: 4rem; }
+      .servicios .servicios__content .servicios__box .servicios__col .background-content .servicios--rectangulo {
+        width: 400px;
+        max-width: 100%;
+        height: 8px; }
+      .servicios .servicios__content .servicios__box .servicios__col .background-content p {
+        color: #fff;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        text-align: left;
+        font-size: 2rem; }
+    .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      text-align: center; }
+      .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons {
+        margin-top: 30px; }
+        .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .social-icon {
+          width: 40px;
+          padding: 0 5px; }
+          .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .social-icon:hover {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            transform: scale(1.3);
+            transition: all .5s; }
+        .servicios .servicios__content .servicios__box .servicios__col .servicios__sociales .servicios__icons .servicios__boton--primary {
+          margin-top: 30px; }
+
+.items-servicios {
+  background-color: #01010f;
+  min-height: 1700px; }
+  .items-servicios .items__content .items__box .items__col {
+    margin-top: 70px; }
+    .items-servicios .items__content .items__box .items__col .titulo--icon {
+      display: flex;
+      justify-content: start;
+      align-items: left; }
+      .items-servicios .items__content .items__box .items__col .titulo--icon i {
+        color: #d17502;
+        font-size: 4rem;
+        padding: 0 20px; }
+      .items-servicios .items__content .items__box .items__col .titulo--icon h2 {
+        color: white;
+        font-size: 4rem;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif; }
+    .items-servicios .items__content .items__box .items__col .titulo--parrafo {
+      padding: 0 90px; }
+      .items-servicios .items__content .items__box .items__col .titulo--parrafo p {
+        color: white;
+        font-size: 2rem;
+        font-weight: 400;
+        font-style: italic;
+        font-family: "Roboto", sans-serif;
+        margin-top: 5px; }
+    .items-servicios .items__content .items__box .items__col .img--developer {
+      max-width: 100%;
+      width: 640px;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      .items-servicios .items__content .items__box .items__col .img--developer:hover {
+        transform: translate(-38px, -38px) rotateY(-18deg) rotateX(18deg); }
+
+.responsive__content .responsive__box .responsive__col {
+  margin-top: 70px;
+  padding: 0 30px; }
+  .responsive__content .responsive__box .responsive__col .img--responsive {
+    max-width: 100%;
+    width: 640px;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; }
+    .responsive__content .responsive__box .responsive__col .img--responsive:hover {
+      transform: translate(-38px, -38px) rotateY(18deg) rotateX(-18deg); }
+  .responsive__content .responsive__box .responsive__col .titulo__icon--responsive {
     display: flex;
-    justify-content: end;
-    align-items: left; }
+    justify-content: start;
+    align-items: center; }
+    .responsive__content .responsive__box .responsive__col .titulo__icon--responsive h2 {
+      color: white;
+      font-size: 4rem;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif; }
+    .responsive__content .responsive__box .responsive__col .titulo__icon--responsive i {
+      color: #d17502;
+      font-size: 4rem;
+      padding: 0 20px; }
+  .responsive__content .responsive__box .responsive__col .titulo__parrafo--responsive {
+    padding: 0 65px; }
+    .responsive__content .responsive__box .responsive__col .titulo__parrafo--responsive p {
+      color: white;
+      font-size: 2rem;
+      font-weight: 400;
+      font-style: italic;
+      font-family: "Roboto", sans-serif;
+      margin-top: 5px; }
