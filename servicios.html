@@ -31,13 +31,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item active">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                <a class="nav-link active" aria-current="page" href="servicios.html">SERVICIOS</a>
+                
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="proceso.html">PROCESO</a>
@@ -50,37 +51,45 @@
       </nav>      
 </header>
 
-<section class="servicios"> 
-  <div class="container servicios__content">
-    <div class="row servicios__box d-flex justify-content-space-around align-items-center">
-      <div class="col-6 servicios__col">
-        <img class="rounded logo-servicios" src="img/logo-blue.png" alt="">
+<section class="services">
+  <div class="container services__content">
+    <div class="row d-flex justify-content-center align-items-center align-items-center services__box">
+      <div class="col-xs-11 col-sm-11 col-md-10 col-lg-10  services__col">
+        <h1>NUESTROS SERVICIOS</h1>
+          <div class="content--linea">
+            <img class="servicios--rectangulo" src="img/rectangulo-card.png" alt="divisor">
+          </div>
+        <p>Somos una empresa digital de servicios de desarrollo web, ofrecemos una amplia gama de soluciones personalizadas para empresas de diferentes industrias, tanto pequeñas como grandes, utilizamos la tecnología, creatividad y estrategia para generar contenido digital que posicionara su empresa sobre la competencia apagando la sed de sus clientes por sus productos.   
+        Nos encargaremos de todo el proceso de desarrollo web para su negocio desde el prototipo de diseño hasta el lanzamiento del sitio.</p>
       </div>  
-    <div class="col-6 servicios__col">
-      <div class="background-content">
-      <h1>NUESTROS SERVICIOS</h1>
-      <img class="servicios--rectangulo" src="img/rectangulo-card.png" alt="">
-      <p>Somos una empresa digital de servicios de desarrollo web, ofrecemos una amplia gama de soluciones personalizadas para empresas de diferentes industrias, tanto pequeñas como grandes, utilizamos la tecnología, creatividad y estrategia para generar contenido digital que posicionara su empresa sobre la competencia apagando la sed de sus clientes por sus productos.</p>   
-      <p>Nos encargaremos de todo el proceso de desarrollo web para su negocio desde el prototipo de diseño hasta el lanzamiento del sitio.</p>
     </div>
-    <div class="servicios__sociales">
-      <div class="servicios__icons">
-      <img class="social-icon" src="img/sms-facebook.png" alt="">
-      <img class="social-icon" src="img/sms-whatsaap.png" alt="">
-      <img class="social-icon" src="img/sms-whatsaap.png" alt="">
-      <a class="btn btn-secondary servicios__boton--primary" href="#">SOLICITAR COTIZACION</a>
-      </div>
+  </div>
+
+  <div class="container content__sociales">
+    <div class="row sociales__box">
+      <div class="col-12 sociales__col">
+        <img class="icon" src="img/sms-facebook.png" alt="icono facebook">
+        <img class="icon" src="img/sms-whatsaap.png" alt="icono whatsaap">
+        <img class="icon" src="img/sms.instagram.png" alt="icono instagram">     
       </div>
     </div>
   </div>
-</div>
-</section>  
+
+  <div class="container btn__content">
+    <div class="row btn__box">
+      <div class="col-12 btn__col">
+        <a class="btn btn-secondary servicios--boton" href="#">COTIZA AHORA<a></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- ITEMS SERVICIOS -->
 <section class="items-servicios">
   <div class="container-fluid items__content">
     <div class="row d-flex justify-content-center align-items-center items__box">
-      <div class="col-6 items__col">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 services__col items__col">
         <div class="titulo--icon">
           <i class="fas fa-laptop-code"></i>
           <h2>DESARROLLO WEB</h2>
@@ -90,8 +99,8 @@
         </div>
       </div>
 
-      <div class="col-6 items__col">
-        <img src="img/web-developer.jpg" class="img--developer" alt="...">
+      <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-6 services__col items__col">
+        <img src="img/web-developer.jpg" class="img--developer" alt="imagen desarrollo web">
       </div>
     </div>
   </div>
@@ -99,13 +108,13 @@
 <!-- RESPONSIVE DESIGN -->
   <div class="container-fluid responsive__content">
     <div class="row d-flex justify-content-center align-items-center responsive__box">
-      <div class="col-6 responsive__col">
-        <img src="img/responsive-design.jpg" class="img--responsive" alt="...">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 responsive__col">
+        <img src="img/responsive-design.jpg" class="img--responsive" alt="imagen diseño responsivo">
       </div>
-      <div class="col-6 responsive__col">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6  responsive__col">
         <div class="titulo__icon--responsive">
           <i class="fas fa-mobile-alt"></i>
-          <h2>RESPONSIVE DESIGN</h2>       
+          <h2>RESPONSIVE</h2>       
         </div>
         <div class="titulo__parrafo--responsive">
           <p>El 63% de todo el tráfico web de méxico y el mundo proviene de dispositivos móviles. Cada proyecto de diseño y desarrollo de sitios web de code web studio viene con un plan de respuesta móvil, por lo que su sitio reacciona rápida y poderosamente a cualquier tipo de dispositivo ya sea iPhones, iPads, estaciones de trabajo y todo lo demás. Este plan nos permite ahorrar tiempo en desarrollo y reducir los costos de mantenimiento continuo.</p>
@@ -118,7 +127,7 @@
 
   <div class="container-fluid items__content">
     <div class="row d-flex justify-content-center align-items-center items__box">
-      <div class="col-6 items__col">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 items__col">
         <div class="titulo--icon">
           <i class="fab fa-cc-visa"></i>
           <h2>E-COMMERCE</h2>
@@ -128,8 +137,8 @@
           Comprendemos la importancia de utilizar la última tecnología para maximizar las conversiones y las ganancias. En resumen construimos tiendas virtuales de fácil uso, y optimizadas para generar ventas utilizando lo último en tecnología web.</p>
         </div>
       </div>
-      <div class="col-6 items__col">
-        <img src="img/e-commerce.jpg" class="img--developer" alt="...">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 items__col">
+        <img src="img/e-commerce.jpg" class="img--developer" alt="imagen e-commerce">
       </div>
     </div>
   </div>
@@ -137,10 +146,10 @@
   <!-- SEO -->
   <div class="container-fluid responsive__content">
     <div class="row d-flex justify-content-center align-items-center responsive__box">
-      <div class="col-6 responsive__col">
-        <img src="img/seo.jpg" class="img--responsive" alt="...">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 responsive__col">
+        <img src="img/seo.jpg" class="img--responsive" alt="imagen seo">
       </div>
-      <div class="col-6 responsive__col">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 responsive__col">
         <div class="titulo__icon--responsive">
           <i class="fab fa-chrome"></i>
           <h2>SEO</h2>       
@@ -157,7 +166,7 @@
 <section class="container-fluid form-block">
   <div class="container contacto__form">
     <div class="row d-flex justify-content-center flex-column contacto__form_pricipal">
-      <div class="container p-5 col-6 contacto__form_principal--titulo">
+      <div class="container p-5 col-xs-12 col-sm-12 col-md-12 col-lg-5 contacto__form_principal--titulo">
         <h2>¿TE GUSTARÍA SABER MÁS DE<span> NUESTROS SERVICIOS?</span></h2> 
         <h3>ENVÍANOS UN MENSAJE</h3>       
     </div>
@@ -189,12 +198,12 @@
 
 <footer class="footer">
   <div class="container-fluid p-3 footer__pricipal"> 
-    <div class="d-flex justify-content-space-around align-items-center footer__content">
-      <div class="col-3 footer--logo ">
-        <img src="img/logo.png" class="rounded mx-auto d-block" alt="...">
+    <div class="row d-flex justify-content-space-around align-items-center footer__content">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 footer--logo ">
+        <img src="img/logo.png" class="rounded mx-auto d-block" alt="logo footer">
       </div>
       
-      <div class="col-2 mt-3 footer--nav">      
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3 footer--nav">      
         <nav>
           <ul class="menu-nav">
               <a class="t_nav" href="#">COMPANY</a>
@@ -207,12 +216,12 @@
         </nav>
       </div>
 
-      <div class="col-2 mt-3 footer--nav">      
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3 footer--nav">      
         <nav>
           <ul class="menu-nav">
             <a class="t_nav" href="#">SERVICES</a>
             <a href="#">WEB DESIGN</a>
-            <a href="#">WEB DEVELOPMENT</a>
+            <a href="#">DEVELOPMENT</a>
             <a href="#">SEO</a>
             <a href="#">BRANDING</a>
             <a href="#">MARKETING</a>
@@ -220,8 +229,8 @@
         </nav>
       </div>
 
-      <div class="col-5 mt-3 d-flex flex-column footer--information">  
-        <div class="footer__boton d-flex justify-content-end">    
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-3 d-flex flex-column footer--information">  
+        <div class="footer__boton d-flex justify-content-center">    
           <a class="btn btn-secondary footer-boton" href="#">¿PODEMOS AYUDARTE<a>
         </div>
           <p><span>Code Web Studio</span> es una agencia de desarrollo web, que combina la tecnologia, creatividad y estrategia para crear sitios web que inspiran.<p>
@@ -232,6 +241,7 @@
 
   </div>
 </footer>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

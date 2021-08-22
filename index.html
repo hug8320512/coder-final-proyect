@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <!-- link bt-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/estilos.css">   
     
 </head>
@@ -22,7 +23,7 @@
 <header class="header">  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo principal"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,76 +51,62 @@
 
  <!-- HERO -->
  <main>
-  <section class="container-fluid banner banner-hero">
-    <div class="container col-12 banner__sociales">
-        <div class="row d-flex justify-content-end banner__sociales__iconos">
-            <div class="d-flex flex- banner__sociales__iconos--images">
-            <img src="img/sms-facebook.png" alt="">
-            <img src="img/sms.instagram.png" alt="">
-            <img src="img/sms-whatsaap.png" alt="">
-            </div> 
+<section class="hero">
+  <div class="container-fluid hero__content">
+    <div class="row d-flex justify-content-center align-items-center hero__box">
+      <div class="col-7 hero__col">
+        <div class="banner--sociales">
+            <img src="img/sms-facebook.png" alt="icono facebook">
+            <img src="img/sms.instagram.png" alt="icono instagram">
+            <img src="img/sms-whatsaap.png" alt="icono whatsaap">
         </div>
+        <div class="hero--titulo">
+          <h1>APASIONADOS POR CREAR, MEJORAR Y ADMINISTRAR<span> SITIOS WEB.</h1>
+          <img src="img/rectangulo.jpg" alt="divisor">
+          <p>Combinamos la <span>tecnología, creatividad y estrategia</span> para crear sitios web que inspiran y asombran permitiéndoles a tus clientes acceder a tus servicios  y productos desde cualquier parte del mundo.</p>
+          <a class="btn btn-secondary hero--boton" href="#">COTIZAR AHORA</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
     </div>
-    <div class="container d-flex justify-content-center banner__principal">
-        <div class="col-9 d-flex flex-column banner__principal__titulo">
-            <h1>APASIONADOS POR CREAR, MEJORAR
-                Y ADMINISTRAR<span> SITIOS WEB.</span></h1>
-            <img src="img/rectangulo.jpg" alt="">
-            <div class="container col-9 d-flex justify-content-center  banner__principal__parrafo">
-                <p>Combinamos la <span>tecnología, creatividad y estrategia</span> para crear sitios web que inspiran y asombran permitiéndoles a tus clientes acceder a tus servicios  y productos desde cualquier parte del mundo.</p>
-            </div>
-            <div class="container d-flex justify-content-center col-12 banner__principal__botones">
-                <div class="row mt-5 banner__botones_box">
-                <a class="btn btn-secondary banner__principal__botones--primary" href="#">SOLICITAR COTIZACION</a>
-                </div>
-            </div>  
-        </div>
-    </div> 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <img class="scroll" src="img/scroll.png" alt="">
-            </div>
-        </div>
-    </div>     
-  </section>
+  </div>
+</section>
+
 
 <!-- PUBLICIDAD -->
-  <section class="container-fluid publicidad">
-    <div class="container publicidad_titulo">
-        <div class="row d-flex justify-content-center publicidad__titulo__pricipal">
-          <div class="col-10 publicidad__titulo__principal--text">
+  <section class="publicidad">
+    <div class="container publicidad__content">
+      <div class="row d-flex justify-content-center align-items-center flex-column  publicidad__box">
+        <div class="col-10 publicidad__col">
             <h2>¿POR QUE<span> NOSOTROS?</span></h2>
-            <p class="parrafo-1">Cada negocio tiene un conjunto específico de objetivos y clientes, es por eso que tenemos diferentes tipos de planes para satisfacer sus necesidades, desarrollamos sitios web para todos tipos de usuarios, nos enfocamos en todos tamaños de empresas o negocios.</p>
-            <p>Nuestro compromiso es ayudar a nuestros clientes a lograr sus objetivos comerciales, combinando la tecnología, creatividad y estrategia para lograr posicionar sus empresas o negocios sobre la competencia, con el objetivo de captar nuevos clientes para incrementar el valor de sus servicios o productos.</p>
-            <div class="container d-flex justify-content-center publicidad__principal__botones">
-              <div class="row mt-5">
-              <a class="btn btn-secondary publicidad__principal__botones--primary" href="#">¿PODEMOS AYUDARTE</a>
-              </div>
-          </div>  
-          </div>
+            <p>Cada negocio tiene un conjunto específico de objetivos y clientes, es por eso que tenemos diferentes tipos de planes para satisfacer sus necesidades, desarrollamos sitios web para todos tipos de usuarios, nos enfocamos en todos tamaños de empresas o negocios.
+            Nuestro compromiso es ayudar a nuestros clientes a lograr sus objetivos comerciales, combinando la tecnología, creatividad y estrategia para lograr posicionar sus empresas o negocios sobre la competencia, con el objetivo de captar nuevos clientes para incrementar el valor de sus servicios o productos.</p>
+            <a class="btn btn-secondary publicidad--boton" href="#">¿PODEMOS AYUDARTE</a>
         </div>
+      </div>
     </div>
+
+   
     <div class="container-fluid publicidad__principal">
       <div class="row d-flex justify-content-evenly publicidad__principal__rounders">
-        <div class="col-4 publicidad__principal__rounders--medida">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 publicidad__principal__rounders--medida">
             <h3>SITIOS WEB</h3>
             <h4>A LA MEDIDAD</h4>
-            <img src="img/rectangulo.jpg" alt="">
+            <img src="img/rectangulo.jpg" alt="divisor">
             <p>Los proyectos que se desarrollan en 
             code web studio son planificados y ejecutados en base los requerimientos y especificaciones de nuestros de clientes, de igual forma están elaborados para todo tipo de usuarios, la accesibilidad es una parte importante en nuestros proyectos.  Trabajamos sin límites en cuanto a funcionalidad, accesibilidad o diseño adaptando la tecnología a sus necesidades</p>
             </div>
-            <div class="col-4 publicidad__principal__rounders--diseño">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 publicidad__principal__rounders--diseño">
               <h3>DISEÑO WEB</h3>
               <h4>PROFESIONAL</h4>
-              <img src="img/rectangulo.jpg" alt="">
+              <img src="img/rectangulo.jpg" alt="divisor">
               <p>Nuestro equipo tiene las competencias y habilidades necesarias para realizar cualquier tipo de diseño y desarrollo web que el cliente requiera, ofrecemos a las empresas de todos tamaños y recursos una estrategia online que les permite cumplir con sus objetivos comerciales a través del diseño y desarrollo de sitios web profesionales. </p>
             </div>
           
-            <div class="col-4 publicidad__principal__rounders--seo">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 publicidad__principal__rounders--seo">
               <h3>SEO</h2>
               <h4>EXITOSO</h3>
-              <img src="img/rectangulo.jpg" alt="">
+              <img src="img/rectangulo.jpg" alt="divisor">
               <p>Por muy bien elaborado que tengas tu sitio web, si no apareces en las búsquedas que realizan los usuarios en los buscadores web simplemente no existes y si no existes no te compran, es por eso que indexamos tu sitio web en dichos buscadores con la finalidad de incrementar el tráfico de visitas en tu web apagando la sed de tus clientes por tus productos. </p>
           </div>
         </div>  
@@ -132,59 +119,61 @@
   <section class="accesibilidad">
     <div class="container accesibilidad__content">
       <div class="row p-5 d-flex justify-content-left accesibilidad__content__primary">
-        <div class="col-7 accesibilidad__content__primary--titulo">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 accesibilidad__content__primary--titulo">
           <h2>SOMOS UNA AGENCIA CONSTRUIDA PARA CREAR <span>VALOR REAL</span></h2>
           <p>Nos preocupamos por los detalles para que usted no tenga que hacerlo. Cuando trabaja con nuestra agencia web, puede estar seguro de que su sitio web cumple con todos los estándares de diseño y desarrollo web moderno.</p>
           <a class="btn btn-secondary accesibilidad__botones_primary--boton" href="#">NUESTROS SERVICIOS</a>
         </div>     
+      </div>
     </div>
-  </div>
+
+    
    <div class="container-fluid accesibilidad__cards">
       <div class="row d-flex justify-content-center accesibilidad__cards_primary">
-        <div class="col-3 m-4 mt-4 accesibilidad__cards_primary--accesible">
-          <img src="img/sm-data.png" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 m-4 mt-4 accesibilidad__cards_primary--accesible">
+          <img src="img/sm-data.png" alt="icono accesibilidad">
           <h3>Accesibilidad</h3>
           <p>Code Web Studio tiene como objetivo lograr que las páginas web sean utilizables para todas las personas, independientemente de sus conocimientos o capacidades personales, es por ello que la accesibilidad se considera en todo nuestro proceso.</p>
         </div>
 
-        <div class="col-3 m-4 mt-4 accesibilidad__cards_primary--performant">
-          <img src="img/sm-optimizacion.png" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 m-4 mt-4 accesibilidad__cards_primary--performant">
+          <img src="img/sm-optimizacion.png" alt="icono optimizacion">
           <h3>Optimizacion</h3>
           <p>Optimizamos su sitio web en todo momento, asegurando que el código, el contenido y todas las decisiones de diseño tengan un impacto positivo en el rendimiento, la experiencia del usuario y el SEO.</p>
         </div>
 
-        <div class="col-3 m-4 mt-4 accesibilidad__cards_primary--secure">
-          <img src="img/sm-seguridad.png" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 m-4 mt-4 accesibilidad__cards_primary--secure">
+          <img src="img/sm-seguridad.png" alt="icono seguridad">
           <h3>Seguridad</h3>
           <p>Garantizamos la seguridad de su sitio con cifrado, autenticación multifactor, copia de seguridad y restauración, auditorías programadas periódicamente, actualizaciones y código probado.</p>
         </div>
 
-        <div class="col-3 m-4 mt-4 accesibilidad__cards_primary--insightful ">
-          <img src="img/sm-analytics.png" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 m-4 mt-4 accesibilidad__cards_primary--insightful ">
+          <img src="img/sm-analytics.png" alt="icono analisis">
           <h3>Analisis</h3>
           <p>Con análisis, estadísticas en tiempo real, pruebas A / B e investigación sobre su industria y audiencia, eliminamos las conjeturas con un proceso de diseño basado en datos.</p>
         </div>
 
-        <div class="col-3 m-4 mt-4 accesibilidad__cards_primary--optimized ">
-          <img src="img/optimizacion.png" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 m-4 mt-4 accesibilidad__cards_primary--optimized ">
+          <img src="img/optimizacion.png" alt="icono seo">
           <h3>Estrategia Seo</h3>
           <p>La estrategia de SEO de una agencia web puede ayudarte o deshacerte. Cuando trabaje con nosotros, tenga la seguridad de que su sitio web estará altamente optimizado teniendo en cuenta sus resultados finales.</p>
         </div>
 
-        <div class="col-3 m-4 mt-4 accesibilidad__cards_primary--supported ">
-          <img src="img/sm-seguridad.png" alt="">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 m-4 mt-4 accesibilidad__cards_primary--supported ">
+          <img src="img/sm-seguridad.png" alt="icono soporte">
           <h3>Soporte</h3>
           <p>Nuestra capacitación, documentación y soporte brindan tranquilidad. Lo mantendremos informado con un monitoreo integral del sitio e informes sólidos.</p>
         </div>
       </div>
-    </div>  
+    </div>   
   </section>
 </main>
 
 <section class="container-fluid form-block">
   <div class="container contacto__form">
     <div class="row d-flex justify-content-center flex-column contacto__form_pricipal">
-      <div class="container p-5 col-6 contacto__form_principal--titulo">
+      <div class="container p-5 col-xs-12 col-sm-12 col-md-12 col-lg-5 contacto__form_principal--titulo">
         <h2>¿TE GUSTARÍA SABER MÁS DE<span> NUESTROS SERVICIOS?</span></h2> 
         <h3>ENVÍANOS UN MENSAJE</h3>       
     </div>
@@ -205,7 +194,7 @@
       <div class="input-group">
         <textarea name="mensaje" id="mensaje"></textarea>
         <label class="label" for="mensaje">Mensaje</label>
-      </div>
+      </div>W
       <input class="enviar" type="submit" value="Enviar">
     </div>
   </form>
@@ -216,12 +205,12 @@
 
 <footer class="footer">
   <div class="container-fluid p-3 footer__pricipal"> 
-    <div class="d-flex justify-content-space-around align-items-center footer__content">
-      <div class="col-3 footer--logo ">
-        <img src="img/logo.png" class="rounded mx-auto d-block" alt="...">
+    <div class="row d-flex justify-content-space-around align-items-center footer__content">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 footer--logo ">
+        <img src="img/logo.png" class="rounded mx-auto d-block" alt="logo footer">
       </div>
       
-      <div class="col-2 mt-3 footer--nav">      
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3 footer--nav">      
         <nav>
           <ul class="menu-nav">
               <a class="t_nav" href="#">COMPANY</a>
@@ -234,12 +223,12 @@
         </nav>
       </div>
 
-      <div class="col-2 mt-3 footer--nav">      
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3 footer--nav">      
         <nav>
           <ul class="menu-nav">
             <a class="t_nav" href="#">SERVICES</a>
             <a href="#">WEB DESIGN</a>
-            <a href="#">WEB DEVELOPMENT</a>
+            <a href="#">DEVELOPMENT</a>
             <a href="#">SEO</a>
             <a href="#">BRANDING</a>
             <a href="#">MARKETING</a>
@@ -247,8 +236,8 @@
         </nav>
       </div>
 
-      <div class="col-5 mt-3 d-flex flex-column footer--information">  
-        <div class="footer__boton d-flex justify-content-end">    
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-3 d-flex flex-column footer--information">  
+        <div class="footer__boton d-flex justify-content-center">    
           <a class="btn btn-secondary footer-boton" href="#">¿PODEMOS AYUDARTE<a>
         </div>
           <p><span>Code Web Studio</span> es una agencia de desarrollo web, que combina la tecnologia, creatividad y estrategia para crear sitios web que inspiran.<p>

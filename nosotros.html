@@ -22,17 +22,17 @@
 <header class="header">  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo principal"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item active">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                <a class="nav-link active" aria-current="page" href="nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="servicios.html">SERVICIOS</a>
@@ -48,58 +48,63 @@
       </nav>      
 </header>
 <main>
-  <section class="nosotros">
-  <div class="nosotros__general">
-    <div class="nosotros__principal">
-      <div class="nosotros__secundario"> 
-        <img src="img/nosotros-img.png" class="figure" alt="...">
+
+<section class="nosotros">
+  <div class="container-fluid nosotros__content">
+    <div class="row d-flex justify-content-center align-items-center nosotros__box">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 nosotros__col">
+          <img src="img/nosotros-img.png" class="rounded" alt="imagen tablet">     
       </div>
-      <div class="nosotros__secundario_titulo">
-          <h1 class="nosotros__secundario--h1">¿POR QUE<span> NOSOTROS?</span></h1> 
-          <p class="nosotros__secundario--p">Cada negocio tiene un conjunto específico de objetivos y clientes, es por eso que tenemos diferentes tipos de planes para satisfacer sus necesidades, desarrollamos sitios web para todos tipos de usuarios, nos enfocamos en todos tamaños de empresas o negocios.</p>
-          <p class="nosotros__secundario--p">Nuestro compromiso es ayudar a nuestros clientes a lograr sus objetivos comerciales, combinando la tecnología, creatividad y estrategia para lograr posicionar sus empresas o negocios sobre la competencia, con el objetivo de captar nuevos clientes para incrementar el valor de sus servicios o productos.</p>     
-          <a class="btn btn-secondary nosotros__secundario--btn" href="#">¿PODEMOS AYUDARTE?</a>            
-      </div>       
+
+      <div class="col-xs-12 col-sm-10 col-md-10 col-lg-5 nosotros__col"> 
+          <h1>¿POR QUE<span> NOSOTROS?</span></h1>
+          <p>Cada negocio tiene un conjunto específico de objetivos y clientes, es por eso que tenemos diferentes tipos de planes para satisfacer sus necesidades, desarrollamos sitios web para todos tipos de usuarios, nos enfocamos en todos tamaños de empresas o negocios.</p>
+          <p>Nuestro compromiso es ayudar a nuestros clientes a lograr sus objetivos comerciales, combinando la tecnología, creatividad y estrategia para lograr posicionar sus empresas o negocios sobre la competencia, con el objetivo de captar nuevos clientes para incrementar el valor de sus servicios o productos.</p>
+          <a class="nosotros--btn" href="#">¿PODEMOS AYUDARTE?</a>          
+      </div>     
     </div>
   </div>
+
 </section>
 
 <!-- TEAM -->
-<section class="container-fuid cards_principal_container">
-  <div class="row cards__team">
-    <div class="container col-8 team__title">   
-        <h2 class="team--h1">CONOCE A NUESTRO <span>EQUIPO</span></h2>
-        <p class="team--p">nuestro equipo incluye los mejores diseñadores y desarrolladores de centroamérica, lo que nos permite cerrar la brecha entre las zonas horarias, los idiomas y las influencias culturales.
-        Nos esforzamos por tener un equipo diverso, inclusivo y solidario de creadores proactivos y pensadores estratégicos, que trabajen juntos para superar los límites y crecer juntos.</p>
+<section class="cards_principal_container">
+  <div class="container-fluid cards__content">
+    <div class="row d-flex justify-content-center align-items-center cards__team">
+      <div class="col-xs-9 col-sm-9 col-md-9 col-lg-8 team__title">   
+          <h2 class="team--h1">CONOCE A NUESTRO <span>EQUIPO</span></h2>
+          <p class="team--p">nuestro equipo incluye los mejores diseñadores y desarrolladores de centroamérica, lo que nos permite cerrar la brecha entre las zonas horarias, los idiomas y las influencias culturales.
+          Nos esforzamos por tener un equipo diverso, inclusivo y solidario de creadores proactivos y pensadores estratégicos, que trabajen juntos para superar los límites y crecer juntos.</p>
+      </div>
     </div>
   </div>
   
   <div class="container team">
     <div class="row mt-6 d-flex justify-content-around align-items-center team__principal">
-      <div class="col-5 team__secundario">
-        <img src="img/team-marketing.png" class="rounded team__secundario--img" alt="...">
+      <div class="col-xs-9 col-sm-9 col-md-11 col-lg-5 team__secundario">
+        <img src="img/team-marketing.png" class="rounded team__secundario--img" alt="imagen de directora de desarrollo web">
         <h3 class="team__secundario--h3">Sarah Littlefield</h3>
         <h4 class="team__secundario--h4">FULLSTACK DEVELOPMENT</h4>
         <p class="team__secundario--p">Nuestro asistente senior de JavaScript ha creado sitios web y aplicaciones web desde 2004. Tiene un profundo conocimiento de todo lo relacionado con la interfaz, incluida la creación de secuencias de comandos de animación compleja, el marcado receptivo entre navegadores y las integraciones de API. Vive en mexico y lidera nuestras implementaciones frontend.</p>
       </div>
 
      
-      <div class="col-5 mt-6 team__secundario">
-        <img src="img/team-developer.png" class="rounded team__secundario--img" alt="...">
+      <div class="col-xs-9 col-sm-9 col-md-11 col-lg-5 mt-6 team__secundario">
+        <img src="img/team-developer.png" class="rounded team__secundario--img" alt="imagen de directora creativa">
         <h3 class="team__secundario--h3">Angelina Foster</h3>
         <h4 class="team__secundario--h4">DIRECTORA CREATIVA</h4>
         <p class="team__secundario--p">Nuestro diseño obsesivo con la tipografía lleva vidas para el diseño de interfaces de usuario, las tartas de fresa, el café de origen único y sus dos hijos muy obstinados. Tiene 20 años de experiencia trabajando en todo el mundo para clientes, diseñando e implementando sitios web complejos a escala, y ahora se enorgullece de llamar a mexico su hogar.</p>
       </div>
 
-      <div class="col-5 mt-6 team__secundario">
-        <img src="img/team-design.png" class="rounded team__secundario--img" alt="...">
+      <div class="col-xs-9 col-sm-9 col-md-11 col-lg-5 mt-6 team__secundario">
+        <img src="img/team-design.png" class="rounded team__secundario--img" alt="imagen de directora de diseñadora grafica">
         <h3 class="team__secundario--h3">Kimberly Lawarence</h3>
         <h4 class="team__secundario--h4">DISEÑADORA GRAFICA</h4>
         <p class="team__secundario--p">Una diseñadora industrial convertida en diseñador gráfico y, a veces, tipográfico. La pasión de haddad es crear y utilizar tipografía personalizada en el desarrollo de marcas grandes y pequeñas.</p>
       </div>
 
-      <div class="col-5 mt-6 team__secundario">
-        <img src="img/team-influencer.png" class="rounded team__secundario--img" alt="...">
+      <div class="col-xs-9 col-sm-9 col-md-11 col-lg-5 mt-6 team__secundario">
+        <img src="img/team-influencer.png" class="rounded team__secundario--img" alt="imagen de directora de e-commerce">
         <h3 class="team__secundario--h3">Jennifer Haddad</h3>
         <h4 class="team__secundario--h4">E-COMMERCE RETAIL</h4>
         <p class="team__secundario--p">Con una carrera de startups web que abarca no solo mexico si no en centroamerica, Jenny pasó de fundar una cadena de tiendas minoristas físicas y en línea a puestos de consultoría en comercio digital, ventas minoristas, POS e integraciones de sistemas y más.
@@ -111,7 +116,7 @@
 
 <!-- COMENTARIOS -->
 <section class="container-fluid testimonios">
-  <div class="row col-12 comentarios__titulo">
+  <div class="row comentarios__titulo">
     <h2>TESTIMONIOS <span>CLIENTES</span></h2>
   </div>
   <div class="container">
@@ -119,7 +124,7 @@
    <div class="carousel-inner">
      <div class="carousel-item active">
       <div class="content--slide">
-        <img src="img/test-1.png" alt="Second slide">
+        <img src="img/test-1.png" alt="primer slide">
           <div class="content--slides">
           <h3>Diane King</h3>
           <p>"Gracias por la atención personalizada recibida. Tengo que decir a este respecto que sí he notado un trato cercano y dispuesto a entender nuestras necesidades.".</p>
@@ -128,7 +133,7 @@
      </div>
      <div class="carousel-item">      
        <div class="content--slide">
-        <img src="img/test-2.png" alt="Second slide">
+        <img src="img/test-2.png" alt="Segundo slide">
         <div class="content--slides">
           <h3>Marcus Rashford</h3>
           <p>"Nos gustaría destacar el trato personalizado que siempre nos han ofrecido Code Web Studio, así como el servicio de soporte ágil y efectivo en todo momento. Gracias al posicionamiento conseguido por Code Web Studio hemos aumentado considerablemente el número ".</p>
@@ -137,7 +142,7 @@
      </div>
      <div class="carousel-item">
       <div class="content--slide">
-        <img src="img/test-3.png" alt="Second slide">
+        <img src="img/test-3.png" alt="tercer slide">
         <div class="content--slides">
           <h3>Anastasios G. Leventis</h3>
           <p>"Gracias al posicionamiento conseguido por Code Web Studio el número de visitas a nuestra web ha aumentado considerablemente. Me gustaría destacar, también, la atención, siempre eficaz y cercana, prestada por parte del equipo técnico.".</p>
@@ -158,15 +163,17 @@
   </section>
   
 </main>
+
 <section class="container-fluid form-block">
   <div class="container contacto__form">
     <div class="row d-flex justify-content-center flex-column contacto__form_pricipal">
-      <div class="container p-5 col-6 contacto__form_principal--titulo">
+      <div class="container p-5 col-xs-12 col-sm-12 col-md-12 col-lg-5 contacto__form_principal--titulo">
         <h2>¿TE GUSTARÍA SABER MÁS DE<span> NUESTROS SERVICIOS?</span></h2> 
         <h3>ENVÍANOS UN MENSAJE</h3>       
     </div>
   </div>
   </div>
+
 <div class="formulario">
   <form action="" class="formulario_contacto" name="formulario_contacto">
     <div>
@@ -192,12 +199,12 @@
 
 <footer class="footer">
   <div class="container-fluid p-3 footer__pricipal"> 
-    <div class="d-flex justify-content-space-around align-items-center footer__content">
-      <div class="col-3 footer--logo ">
-        <img src="img/logo.png" class="rounded mx-auto d-block" alt="...">
+    <div class="row d-flex justify-content-space-around align-items-center footer__content">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 footer--logo ">
+        <img src="img/logo.png" class="rounded mx-auto d-block" alt="logo footer">
       </div>
       
-      <div class="col-2 mt-3 footer--nav">      
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3 footer--nav">      
         <nav>
           <ul class="menu-nav">
               <a class="t_nav" href="#">COMPANY</a>
@@ -210,12 +217,12 @@
         </nav>
       </div>
 
-      <div class="col-2 mt-3 footer--nav">      
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3 footer--nav">      
         <nav>
           <ul class="menu-nav">
             <a class="t_nav" href="#">SERVICES</a>
             <a href="#">WEB DESIGN</a>
-            <a href="#">WEB DEVELOPMENT</a>
+            <a href="#">DEVELOPMENT</a>
             <a href="#">SEO</a>
             <a href="#">BRANDING</a>
             <a href="#">MARKETING</a>
@@ -223,8 +230,8 @@
         </nav>
       </div>
 
-      <div class="col-5 mt-3 d-flex flex-column footer--information">  
-        <div class="footer__boton d-flex justify-content-end">    
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 mt-3 d-flex flex-column footer--information">  
+        <div class="footer__boton d-flex justify-content-center">    
           <a class="btn btn-secondary footer-boton" href="#">¿PODEMOS AYUDARTE<a>
         </div>
           <p><span>Code Web Studio</span> es una agencia de desarrollo web, que combina la tecnologia, creatividad y estrategia para crear sitios web que inspiran.<p>

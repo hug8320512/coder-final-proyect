@@ -50,55 +50,57 @@ $space-parrafo:30px;
     transition: all .3s ease;
 }
 
-// TITULO NOSOTROS
-.nosotros__general{
+.nosotros{
     background-color:$off-background;
     min-height: 400px;
-    .nosotros__principal{
-        display: flex;
-        justify-content: space-between;
-        align-items: center; 
-
-        .nosotros__secundario{
-            width: 60%;
-            margin-top: 200px;
-            .figure{
-                max-width: 100%;
-                width: 1000px;}
-        }
-
-            .nosotros__secundario_titulo{
-            width: 50%;
-            padding: 0 80px;
-
-            .nosotros__secundario--h1{
-                color: white;
-                font-weight: 600;
-                font-family:$tipografia-secundario;
-                font-style: italic;
-                text-align: left;
-                margin-top: 150px;
-                font-size:4rem;}
-            
-            .nosotros__secundario--h1 span{
-                color: $just-orange;
-            }
-                            
-            .nosotros__secundario--p{
-                color: white;
-                font-weight: 300;
-                text-align: justify;
-                margin-top: 10px;
-                font-family:$tipografia-secundario;
-                font-size:2rem;}
-            
-            .nosotros__secundario--btn{
-               @extend %btn;
-            &:hover{
-               @extend %btn-hover;
-                }
-            }
+    .nosotros__content{
+        .nosotros__box{
+            .nosotros__col{
+                margin-top: $space-section;
+               
+                    img{
+                        width: 1000px;
+                        max-width: 100%;
+                        
+                    }
                 
+
+                
+                    h1{
+                        color: white;
+                        font-weight: 600;
+                        font-family:$tipografia-secundario;
+                        font-style: italic;
+                        text-align: left;           
+                        font-size:4rem;
+                        padding: 0 40px;
+                    
+                        
+                        span{
+                            color: $just-orange;
+                        }
+                    }
+
+                    p{
+                        color: white;
+                        font-weight: 300;
+                        text-align: justify;
+                        margin-top: 10px;
+                        font-family:$tipografia-secundario;
+                        font-size:2rem;
+                        padding: 0 40px;
+                    }
+
+                    .nosotros--btn{
+                        margin: 0 auto;
+                        margin-top: $space-parrafo;
+                        @extend %btn;
+                        &:hover{
+                        @extend %btn-hover;
+                        }
+                    }
+                
+            }
         }
     }
 }
@@ -114,7 +116,7 @@ $space-parrafo:30px;
             font-weight: 600;
             font-family:$tipografia-secundario;
             font-style: italic;
-            text-align: left;
+            text-align: center;
             margin-top: 100px;
             font-size:4rem;
 
@@ -124,7 +126,7 @@ $space-parrafo:30px;
         .team--p{
             color: white;
             font-weight: 300;
-            text-align: left;
+            text-align: justify;
             margin-top: 30px;
             font-family:$tipografia-secundario;
             font-size:2rem;}
@@ -153,8 +155,8 @@ $space-parrafo:30px;
             }
 
             .team__secundario--h4{
-                color: white;
-                font-weight: 400;
+                color:$just-orange;
+                font-weight: 600;
                 font-family:$tipografia-secundario;
                 margin-top: 15px;
                 font-style: italic;
@@ -167,8 +169,9 @@ $space-parrafo:30px;
                 font-weight: 300;
                 font-family:$tipografia-secundario;
                 font-style: italic;
-                text-align: center;
-                font-size:1.5rem;
+                text-align: justify;
+                font-size:1.6rem;
+                margin-top: 10px;
             }
         }
     }
@@ -237,3 +240,228 @@ $space-parrafo:30px;
     }
     
 }
+//TITULO NOSOTROS
+@media(min-width: 768px) and (max-width: 991px){
+    .nosotros{
+        .nosotros__content{
+            .nosotros__box{        
+                .nosotros__col{
+                    
+                    margin-top: $space-section;
+                    
+                    .nosotros--titulo{
+                     
+                        h1{
+                            color:white;
+                            font-weight: 600;
+                            font-family:$tipografia-secundario;
+                            font-style: italic;
+                            text-align: center;           
+                            font-size:4rem;
+                        }
+    
+                        p{
+                            color: white;
+                            font-weight: 300;
+                            text-align: justify;
+                            margin-top: 10px;
+                            font-family:$tipografia-secundario;
+                            font-size:2rem;
+                            margin-top: 24px;
+                        }
+    
+                        .nosotros--btn{
+                           margin: 24px auto;
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //TITULO TEAM
+        .cards_principal_container{
+            .cards__content{
+                .cards__team{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .team__title{
+                        h2{
+                            font-size: 3.5rem;
+                            text-align: center;
+                        }
+ 
+                        p{
+                            text-align: justify;
+                        }
+                    }
+                }
+            } 
+         }
+    } 
+
+    @media(min-width: 576px) and (max-width: 767px){
+        .nosotros{
+            .nosotros__content{
+                .nosotros__box{        
+                    .nosotros__col{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        margin-top: $space-section;
+                        
+                        .nosotros--titulo{
+                         
+                            h1{
+                                color:white;
+                                font-weight: 600;
+                                font-family:$tipografia-secundario;
+                                font-style: italic;
+                                text-align: center;           
+                                font-size:4rem;
+                            }
+        
+                            p{
+                                color: white;
+                                font-weight: 300;
+                                text-align: justify;
+                                margin-top: 10px;
+                                font-family:$tipografia-secundario;
+                                font-size:2rem;
+                                margin-top: 24px;
+                            }
+        
+                            .nosotros--btn{
+                               margin: 24px auto;
+                                
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //TITULO EQUIPO
+            .cards_principal_container{
+                .cards__content{
+                    .cards__team{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .team__title{
+                            h2{
+                                font-size: 3.5rem;
+                                text-align: center;
+                            }
+     
+                            p{
+                                text-align: justify;
+                            }
+                        }
+                    }
+                } 
+             }
+        
+    } 
+
+        @media(max-width: 575px){
+            .nosotros{
+                .nosotros__content{
+                    .nosotros__box{        
+                        .nosotros__col{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            margin-top: $space-section; 
+                                h1{
+                                    color:white;
+                                    font-weight: 600;
+                                    font-family:$tipografia-secundario;
+                                    font-style: italic;
+                                    text-align: center;           
+                                    font-size:3.5rem;
+                                }
+            
+                                p{
+                                    color: white;
+                                    font-weight: 300;
+                                    text-align: justify;
+                                    margin-top: 10px;
+                                    font-family:$tipografia-secundario;
+                                    font-size:1.8rem;
+                                    margin-top: 24px;
+                                }
+            
+                                .nosotros--btn{
+                                   margin: 24px auto;
+                                    
+                                    }
+                                
+                            }
+                        }
+                    }
+                }
+
+                //TITULO TEAM
+        .cards_principal_container{
+            .cards__content{
+                .cards__team{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .team__title{
+                        margin-top: -60px;
+                        width: 80%;
+                        h2{
+                            font-size: 3.5rem;
+                            text-align: center;
+                        }
+ 
+                        p{
+                            text-align: justify;
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+            
+            //CARDS-TEAM
+
+        .team{
+            .team__principal{
+                .team__secundario{
+                    width: 80%;
+
+                    .team__secundario--img{
+                        width: 250px;
+                    }
+                }
+            }
+        } 
+     }
+     
+     .testimonios{
+         .comentarios__titulo{
+             h2{
+                 font-size: 3.5rem;
+
+                 span{
+                    font-size: 3.5rem;
+                 }
+             }
+         }
+
+         .content--slide{
+             
+            .content--slides{           
+                width: 70%;        
+            }
+        }
+     }
+
+     
+} 
